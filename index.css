@@ -28,6 +28,7 @@ html,body{
     width: 100%;
     z-index: 1;
     top: 55px;
+    margin: auto;
 
     
 }
@@ -35,6 +36,7 @@ html,body{
 .logoimage{
     height: 6rem;
     width: 6rem;
+    margin: auto;
 }
 
 
