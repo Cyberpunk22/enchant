@@ -24,9 +24,6 @@ html,body{
 
 .logobox{
     background-color: #a9ebd2;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
     top: 55px;
     margin: auto;
 
