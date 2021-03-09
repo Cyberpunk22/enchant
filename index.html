@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> 
+
+<!-- Font Awesome Icon Library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- google font Lato -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<!-- ---- font Montserrat---- -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+<!-- title icon -->
+<link rel="icon" type="image/gif/png" href="./resources/favicon_io/favicon.ico">
+<link rel="icon" type="image/gif/png" href="./resources/favicon_io/apple-touch-icon.png">
+
+
+<title>Enchant 22</title>
+<link rel="stylesheet" href="./index.css">
+<style>
+    .checked {
+    color: rgb(255, 217, 0);
+    }
+</style>
+</head>
+<body>
+ <!-- --------- facebook chat plugin-----------  -->
+ <!-- Load Facebook SDK for JavaScript -->
+        <div id="fb-root"></div>
+        <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+            xfbml            : true,
+            version          : 'v10.0'
+            });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+        <!-- Your Chat Plugin code -->
+        <div class="fb-customerchat"
+        attribution="setup_tool"
+        page_id="102921501859247"
+        logged_in_greeting="Hello & Welcome ! How can we help you today? We'll get back to you shortly."
+        logged_out_greeting="Hello & Welcome ! How can we help you today? We'll get back to you shortly.">
+        </div>
+ <!-- --------------------------------------------------------- -->
+
+
+
+      <!-- -------navigation------ -->
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> ENCHANT 22</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#tiNav"
+            aria-controls="tiNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse sticky-top" id="tiNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutus">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#productlist">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#reviews">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        
+         </nav>
+
+      <!-- -----------middle logo-------- -->
+        <div class="logobox">
+          <img src="./resources/logo.png" class="rounded mx-auto d-block logoimage" alt="...">
+        </div>
+
+        <!-- -----image Slider------->
+        <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div id="TiCarousel" class="carousel slide mx-auto" data-ride="carousel">
+
+                                <ol class="carousel-indicators">
+                                    <li data-target="#TiCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#TiCarousel" data-slide-to="1"></li>
+                                    <li data-target="#TiCarousel" data-slide-to="2"></li>
+                                </ol>
+
+                                <div class="carousel-inner ">
+                                    <div class="bannertopfix">
+                                        <div class="carousel-item active ">
+                                            <img src="./resources/banner1.jpg" class="img-fluid d-block mx-auto w-100" alt="...">
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img src="./resources/banner2.jpg" class="img-fluid d-block mx-auto w-90 classclass" alt="...">
+                                            <div class="carousel-caption quote display-4 py-0 mb-5"> <p>Your Personal Sanctuary for Natural Skincare</p></div>
+                                        </div>
+
+                                        <div class="carousel-item ">
+                                            <img src="./resources/banner3.webp" class="img-fluid d-block mx-auto w-90 classclass" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                        </div>
+
+                    </div>
+                </div>
+                <br>
+
+                <!-- -------------About Us---------- -->
+                <div id="aboutus">
+                    <div class="col-12 col-md-10 align-self-center text-center mx-auto">
+                        <h1>Efficient Skincare</h1>
+                        <h5>All natural ingredients and handmade skin care products</h5>
+                    </div>
+                </div>
+
+
+                <!-- ------------- about product--------- -->
+                <div class="productlist mx-auto" id="productlist">
+
+                    <div class="row my-5 d-flex justify-content-between mx-auto">
+                      <div class="col-12 col-md-4 maskboximg">
+                        <img src="./resources/facialmaskbox.jpg" class="img-fluid" alt="">
+                       </div>
+                      <div class=" col-12 col-md-6 text-left justify-content-between mx-auto">
+                          <h2>Rejuvenating Skin Nutrition</h2>
+                          <p> ✔ Brightens, Moisturizes, Minimises large pores, fades acne marks <br>
+                              ✔ Brings out your natural Rosy cheeks. <br>
+                              ✔ For everyday use <br>
+                              ✔ keeps your facial skin replenished all times. <br>
+                              ✔ Use after a long make-up wear day, (not before wearing make-up) <br>
+
+                              *Always keep in the refrigerator</p>
+                      </div>
+                    
+                    </div>
+                </div>
+
+                <div class="row reviewheadline" id="reviews">
+                    <div class="col-12 align-self-center text-center ">
+                        <h2>Reviews</h2>
+                    </div>
+                </div>
+
+                <br>
+                <div id="demo" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="carousel-caption">
+                                <p>Very efficient formula. All the benefits all in one go. Perfect for my busy lifestyle</p>    
+                                        
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <br>
+
+
+                                <img src="./resources/enchant22.jpg">
+                                <div id="image-caption">SHAILA</div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-caption">
+                                <p>Love the results and it feels great that as I am a beginner in skincare journey, this natural product takes care of my skin. It would be better if the product had more pleasing scent. I believe Enchant 22 would get there too!</p> 
+                                
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star "></span>
+                                        <br>
+                                
+                                
+                                <img src="./resources/customer22.jpg" class="img-fluid">
+                                <div id="image-caption">SAMIR</div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-caption">
+                                <p>Just so beautiful results. Most cool part is if you use the product this week, the result shows up the next week and it gave me the rosy cheeks and now most time I don't have to apply make up. It's like nautral make-up all day long. I use it everyday as it is all natural, so no long term side-effects but only goodness.</p> 
+                            
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <br>
+                                
+                                
+                                <img src="./resources/customer3.jpg" class="img-fluid">
+                                <div id="image-caption">YASMIN</div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-caption">
+                                <p>The results are amazing! My large pores are gone and gives me natural glow and acne marks are fading away.</p> 
+                                
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <br>
+                                        
+                                <img src="./resources/cutomer4.jpeg" class="img-fluid">
+                                <div id="image-caption">JESS</div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-caption">
+                                <p>Just so beautiful results. Just Love it. Can't imagine any other face mask for long term use</p> 
+                                        
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star "></span>
+                                        <br>
+                                
+                                <img src="./resources/logo.png" class="img-fluid">
+                                <div id="image-caption">SOPHIE</div>
+                            </div>
+                        </div>
+                    </div> 
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev"> 
+                        <i class='fas fa-arrow-left'></i> </a> <a class="carousel-control-next" href="#demo" data-slide="next"> <i class='fas fa-arrow-right'></i> </a>
+                </div>
+
+                <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- -------- contact--------  -->
+                <div class="contact mx-auto" id="contact">
+                    <section class="slideSection" id="mainSection">
+                      <h2>Why not try it for yourself! Order your jar today.</h2>
+                      <p>For orders and other enquiries, email at:
+                        <br /> shaila.enchant22@gmail.com
+                      </p>
+
+                    
+                        <a href="https://www.facebook.com/Enchant-22-102921501859247">
+                        <i class="fab fa-facebook" style="font-size: 48px; color: whitesmoke;"></i>
+                        </a>
+                    
+
+                       
+                    </section>
+                </div>
+
+                <div class="row footer mx-auto">
+                    <div class="col-12 justify-content-between d-flex mx-auto">
+                        <span>&copy; 2021. Enchant 22 Pte Ltd. All Rights Reserved.</span>
+                        <p>Made with 💖 in Sydney</p>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+</body>
+</html>
+            
