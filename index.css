@@ -191,25 +191,37 @@ i {
 
 .slideSection {
     color: white;
-    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 80%, rgba(0, 0, 0, 0.25) 100%);
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.25) 100%, rgba(0, 0, 0, 0.25) 100%, rgba(0, 0, 0, 0.25) 100%);
     /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 80%, rgba(0, 0, 0, 0.25) 100%);
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.25) 100%, rgba(0, 0, 0, 0.25) 100%, rgba(0, 0, 0, 0.25) 100%);
     /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 81%, rgba(0, 0, 0, 0.25) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 100%, rgba(0, 0, 0, 0.25) 100%, rgba(0, 0, 0, 0.25) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#80000000', endColorstr='#80000000', GradientType=0);
     /* IE6-9 */
     padding-top: 48px;
     padding-bottom: 375px;
-    padding-left: 20%;
-  }
+    margin: auto;
+    width: 80%;
+}
+
+.slideSection h2,p{
+    padding-top: 2rem;
+    width: 90%;
+    margin: auto;
+    text-align: center ;
+}
+
+.slideSection a,i{
+    padding-right: 20px;
+}
 
 
-
-  .contact {
+.contact {
     background-image: url(./resources/naturalskincare.jpg);
     background-attachment: fixed;
     margin-top: 2rem;
+    
 
 }
 
@@ -232,10 +244,11 @@ i {
 
 
 
-  .footer{
-      background-color: #c3ecdc;
-      color: grey;
-  }
+.footer{
+    background-color: #a9ebd2;
+    color: black;
+    height: 4rem;
+}
   
 
 
@@ -246,20 +259,34 @@ i {
 /* ----queries----  */
 
 
-// X-Small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
+/* // X-Small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+/* // Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 576px) {
+    .slideSection{
+        width: 90%;
+        padding-bottom: 150px;
+    }
 
-// Medium devices (tablets, 768px and up)
+    .slideSection h2, p{
+        padding-top: 2rem;
+        width: 80%;
+    }
+
+    .footer{
+        font-size: .5rem;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { ... }
 
-// Large devices (desktops, 992px and up)
+/* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { ... }
 
-// X-Large devices (large desktops, 1200px and up)
+/* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { ... }
 
-// XX-Large devices (larger desktops, 1400px and up)
+/* // XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) { ... }

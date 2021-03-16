@@ -11,7 +11,7 @@ html,body{
 .navbar .container-fluid .navbar-brand{
     color: #eb9a6e;
     letter-spacing: 5px;
-    font-weight: bold
+    font-weight: bold;
 }
 
 
@@ -36,7 +36,128 @@ html,body{
 
 
 
-.container{
-    margin-top: 95px;
-    margin: auto;
+
+  .behindimage{
+      opacity: 0.15;
+      position: fixed;
+      z-index: -1;
+  }
+
+  .method{
+      padding: 2rem;
+      height: 600px;
+      width: 90%;
+  }
+
+
+
+
+
+  @media (max-width:576px) {
+    .contact{
+        background-size: 400px 300px;
+        background-repeat: no-repeat center;
+        background-position-y: unset;
+
+    }
 }
+
+
+
+.slideSection {
+    color: white;
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#80000000', endColorstr='#80000000', GradientType=0);
+    /* IE6-9 */
+    padding-top: 48px;
+    padding-bottom: 250px;
+    width: 100%;
+
+    margin: auto;
+  }
+
+  .slideSection h2,p{
+      padding-top: 2rem;
+      width: 80%;
+      margin: auto;
+      text-align: center;
+  }
+
+  .slideSection a,i{
+    padding-right: 20px;
+}
+
+  .contact {
+    background-image: url(./resources/banner1.jpg);
+    background-attachment: fixed;
+    margin-top: 2rem;
+    width: 100%;
+   
+
+}
+
+.contact h2{
+    font-family: "Roboto", sans-serif;
+    
+}
+.contact p{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3rem;
+    padding-bottom: 2rem;
+    
+}
+
+.contact span a i{
+    color: whitesmoke;
+}
+
+
+
+.footer{
+      background-color: #a9ebd2;
+      color: black;
+      height: 4rem;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* // X-Small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 576px) {
+    .method h1{
+        font-size: 1rem;
+    }
+    .method p{
+        font-size: .7rem;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) { ... }
+
+/* // Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) { ... }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) { ... }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) { ... }
