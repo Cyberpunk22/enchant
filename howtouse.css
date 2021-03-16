@@ -1,0 +1,42 @@
+html,body{
+    margin: 0 auto;
+    padding: 0;
+    font-size: 16px;
+    /* background-color: whitesmoke; */
+    font-family: "Montserrat", sans-serif;
+   
+}
+
+
+.navbar .container-fluid .navbar-brand{
+    color: #eb9a6e;
+    letter-spacing: 5px;
+    font-weight: bold
+}
+
+
+.collapse .navbar-nav .nav-item .nav-link{
+    color: whitesmoke;
+}
+
+
+.logobox{
+    background-color: #a9ebd2;
+    top: 55px;
+    margin: auto;
+
+    
+}
+
+.logoimage{
+    height: 6rem;
+    width: 6rem;
+    margin: auto;
+}
+
+
+
+.container{
+    margin-top: 95px;
+    margin: auto;
+}
