@@ -58,7 +58,7 @@ html,body{
     text-align: left;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
-    width: 100%;
+    width: 90%;
   }
 
   .method span{
@@ -173,6 +173,7 @@ html,body{
     }
     .method p{
         font-size: .7rem;
+        width: 100%;
         
     }
     .footer{
