@@ -37,7 +37,7 @@ html,body{
 
 
   .behindimage{
-      opacity: 0.15;
+      opacity: 0.25;
       position: fixed;
       z-index: -1;
   }
@@ -50,18 +50,22 @@ html,body{
   }
 
   .method h1{
-      font-weight: 550;
+      font-weight: 600;
+      font-family: "Montserrat", sans-serif;
   }
  
   .method p{
     text-align: left;
-    font-family: "Roboto", sans-serif;
-    font-weight: 580;
-    text-shadow: #a9ebd2
+    font-family: "", sans-serif;
+    font-weight: 600;
+    text-shadow: #a9ebd2;
+    font-family: "Montserrat", sans-serif;
   }
 
   .method span{
       font-size: 1.3rem;
+      font-family: "Montserrat", sans-serif;
+
   }
 
 
