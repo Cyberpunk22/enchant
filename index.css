@@ -280,7 +280,7 @@ i {
 /* // Small devices (landscape phones, 576px and up) */
 @media only screen and (max-width: 576px) {
     .slideSection{
-        width: 90%;
+        width: 100%;
         padding-bottom: 150px;
     }
 
@@ -294,7 +294,7 @@ i {
     }
 
     .footer{
-        font-size: 5rem;
+        height: 6rem;
     }
 }
 
