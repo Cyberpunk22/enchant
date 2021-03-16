@@ -75,6 +75,9 @@ html,body{
     border-radius: 4px;
 }
 
+.maskdesc h2{
+      padding-top: 2rem;
+}
 .maskdesc p{
     text-align: left;
     width: 100%;
