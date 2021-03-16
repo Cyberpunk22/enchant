@@ -56,10 +56,9 @@ html,body{
  
   .method p{
     text-align: left;
-    font-family: "", sans-serif;
     font-weight: 600;
-  
     font-family: "Montserrat", sans-serif;
+    width: 90%;
   }
 
   .method span{
@@ -167,7 +166,7 @@ html,body{
 /* // Small devices (landscape phones, 576px and up) */
 @media only screen and (max-width: 576px) {
     .method {
-        height: 700px;
+        height: 740px;
     }
     .method h1{
         font-size: 1rem;
@@ -175,6 +174,10 @@ html,body{
     .method p{
         font-size: .7rem;
         
+    }
+
+    .footer{
+        height: 5rem;
     }
 }
 
