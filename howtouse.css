@@ -45,8 +45,25 @@ html,body{
   .method{
       padding: 2rem;
       height: 600px;
-      width: 90%;
+      width: 100%;
+      
   }
+
+  .method h1{
+      font-weight: 550;
+  }
+ 
+  .method p{
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-weight: 580;
+    text-shadow: #a9ebd2
+  }
+
+  .method span{
+      font-size: 1.3rem;
+  }
+
 
 
 
@@ -122,6 +139,10 @@ html,body{
       color: black;
       height: 4rem;
 }
+
+.footer span{
+    padding-top: 20px;
+}
   
 
 
@@ -146,6 +167,7 @@ html,body{
     }
     .method p{
         font-size: .7rem;
+        
     }
 }
 
