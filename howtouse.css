@@ -37,14 +37,14 @@ html,body{
 
 
   .behindimage{
-      opacity: 0.25;
+      opacity: 0.19;
       position: fixed;
       z-index: -1;
   }
 
   .method{
       padding: 2rem;
-      height: 600px;
+      height: 700px;
       width: 100%;
       
   }
@@ -56,9 +56,10 @@ html,body{
  
   .method p{
     text-align: left;
-    font-weight: 600;
+    font-size: 1.2rem;
+    font-weight: 590;
     font-family: "Montserrat", sans-serif;
-    width: 90%;
+    width: 80%;
   }
 
   .method span{
@@ -177,7 +178,10 @@ html,body{
         
     }
     .footer{
-        height: 6rem;
+        height: 7rem;
+    }
+    .behindimage{
+        opacity: 0.25;
     }
 }
 
