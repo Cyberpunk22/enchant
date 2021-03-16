@@ -58,7 +58,7 @@ html,body{
     text-align: left;
     font-family: "", sans-serif;
     font-weight: 600;
-    text-shadow: #a9ebd2;
+  
     font-family: "Montserrat", sans-serif;
   }
 
@@ -166,6 +166,9 @@ html,body{
 
 /* // Small devices (landscape phones, 576px and up) */
 @media only screen and (max-width: 576px) {
+    .method {
+        height: 700px;
+    }
     .method h1{
         font-size: 1rem;
     }
