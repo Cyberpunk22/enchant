@@ -2,9 +2,8 @@ html,body{
     margin: 0 auto;
     padding: 0;
     font-size: 16px;
-    /* background-color: whitesmoke; */
     font-family: "Montserrat", sans-serif;
-   
+   width: 100%;
 }
 
 

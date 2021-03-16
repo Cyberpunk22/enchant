@@ -5,6 +5,7 @@ html,body{
     font-size: 16px;
     background-color: whitesmoke;
     font-family: "Montserrat", sans-serif;
+    
    
 }
 
@@ -221,6 +222,9 @@ i {
     background-image: url(./resources/naturalskincare.jpg);
     background-attachment: fixed;
     margin-top: 2rem;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position-x: center;
     
 
 }
@@ -274,13 +278,19 @@ i {
         width: 80%;
     }
 
+    .contact{
+        background-repeat: repeat;
+    }
+
     .footer{
-        font-size: .5rem;
+        font-size: 1rem;
     }
 }
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { ... }
+@media (max-width: 576px) {
+   
+}
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { ... }
