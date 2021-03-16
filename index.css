@@ -75,6 +75,11 @@ html,body{
     border-radius: 4px;
 }
 
+.maskdesc p{
+    text-align: left;
+    width: 100%;
+}
+
 
 .reviewheadline{
     font-family: 'Lato', sans-serif;
