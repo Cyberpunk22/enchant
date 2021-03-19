@@ -252,7 +252,9 @@ i {
     color: whitesmoke;
 }
 
-
+.slideSection span{
+    font-weight: bold;
+}
 
 
 

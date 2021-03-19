@@ -108,6 +108,9 @@ html,body{
       text-align: center;
   }
 
+
+
+
   .slideSection a,i{
     padding-right: 20px;
 }
@@ -136,7 +139,9 @@ html,body{
     color: whitesmoke;
 }
 
-
+.slideSection span{
+    font-weight: bold;
+}
 
 .footer{
       background-color: #a9ebd2;
