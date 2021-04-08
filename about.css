@@ -104,15 +104,15 @@ html,body{
 
 @media only screen and (max-width: 576px) {
     .method {
-        height: 1700px;
-        width: 95%;
+        height: 2000px;
+        width: 98%;
     }
     
     .method h1{
         font-size: 1rem;
     }
     .method p{
-        font-size: .7rem;
+        font-size: .8rem;
         width: 100%;
     } 
     .footer{
