@@ -68,7 +68,7 @@ html,body{
 .maskdesc p{
   text-align: center;
   width: 100%;
-  font-family: "Lora", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
 
 }
@@ -84,14 +84,13 @@ html,body{
     
     background-color: #a9ebd2;
     padding: 2rem;
+    
 }
 
-
-.defaultprice span.priceintro{
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.2em;
-    font-weight: 500;
+.defaultprice span{
+    font-family: "Great Vibes", sans-serif;
 }
+
 
 
 .ramadan {
