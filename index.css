@@ -82,9 +82,9 @@ html,body{
     border-radius: 4px;
 }
 
-@media(max-width:767px) {
+@media(max-width:576px) {
     .productlist .maskboximg img {
-        height: 400px;
+        height: auto;
     }
 }
 
