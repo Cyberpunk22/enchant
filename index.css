@@ -66,22 +66,69 @@ html,body{
 
 .productlist{
     padding-bottom: 3rem;
+    margin: auto;
+    width: 100%;
 }
 
+.productlist .maskboximg{
+    margin: auto;
+}
+
+
 .productlist .maskboximg img{
-    height: 20rem;
-    width: 25rem;
+    height: 450px;
+    width: 400px;
     box-shadow: 12px 8px 8px rgb(226, 226, 226);
     border-radius: 4px;
 }
 
+
+
 .maskdesc h2{
       padding-top: 2rem;
+
 }
 .maskdesc p{
     text-align: left;
     width: 100%;
 }
+
+
+button{
+    font-size: 2rem;
+    font-family: "Great Vibes", sans-serif;
+    letter-spacing: 2px;
+    text-decoration: none;
+    border:none;
+    background-color: #a9ebd2;
+    border-radius: 2px;
+    padding: 2px 60px 2px 60px ;
+}
+
+
+
+button:hover{
+    background-color: #f89f93;
+    transition: background 1.5s;
+    padding: 2px 60px 2px 60px;
+    cursor: pointer;
+    color: white;
+    border-radius: 2px;
+
+}
+
+button a {
+    color: black;
+    
+}
+
+button a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+
 
 
 .reviewheadline{

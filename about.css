@@ -1,0 +1,123 @@
+html,body{
+    margin: 0 auto;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+   width: 100%;
+   /* background-color: whitesmoke; */
+ 
+}
+
+
+.navbar .container-fluid .navbar-brand{
+    color: #eb9a6e;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+
+.collapse .navbar-nav .nav-item .nav-link{
+    color: whitesmoke;
+}
+
+
+.logobox{
+    background-color: #a9ebd2;
+    top: 55px;
+    margin: auto;
+    box-shadow: 0 0 8px 0 rgb(226, 226, 226);
+
+    
+}
+
+.logoimage{
+    height: 6rem;
+    width: 6rem;
+    margin: auto;
+}
+
+.container{
+    margin: auto;}
+
+.behindimage{
+      /* opacity: 0.50; */
+      position: relative;
+      z-index: -1;
+  
+  }
+
+  .behindimage{
+      height: 15rem;
+      width: 14rem;
+      box-shadow: 0 0 8px 0 rgb(226, 226, 226);
+  }
+
+
+
+  .method{
+    padding: 2rem;
+    height: 1700px;
+    width: 80%;
+    /* margin: 0 auto; */
+    
+   
+    
+    
+}
+
+.method h1{
+    font-family: "Great Vibes", sans-serif;
+    
+}
+
+.method p{
+ /* text-align: left; */
+  /* font-size: 1.4rem; */
+  font-size: 1rem;
+  font-family: "Quicksand", sans-serif;
+  /* line-height: 1.8rem; */
+  font-weight: 500;
+  line-height: 1.8;
+  width: 100%;
+  padding: .8rem;
+}
+
+.method span{
+    font-size: 1.3rem;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+
+
+.footer{
+    background-color: #a9ebd2;
+    color: black;
+    height: 4rem;
+
+}
+
+.footer span{
+  padding-top: 20px;
+}
+
+
+@media only screen and (max-width: 576px) {
+    .method {
+        height: 1700px;
+        width: 95%;
+    }
+    
+    .method h1{
+        font-size: 1rem;
+    }
+    .method p{
+        font-size: .7rem;
+        width: 100%;
+    } 
+    .footer{
+        height: 7rem;
+    }
+
+}
+

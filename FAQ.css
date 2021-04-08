@@ -1,0 +1,133 @@
+
+html,body{
+    margin: 0 auto;
+    padding: 0;
+    font-size: 16px;
+    background-color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
+    
+   
+}
+
+.navbar .container-fluid .navbar-brand{
+    color: #eb9a6e;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+
+
+
+.collapse .navbar-nav .nav-item .nav-link{
+    color: whitesmoke;
+}
+
+
+
+
+.logobox{
+    background-color: #a9ebd2;
+    top: 55px;
+    margin: auto;
+
+    
+}
+
+.logoimage{
+    height: 6rem;
+    width: 6rem;
+    margin: auto;
+}
+
+
+.slideSection {
+    color: white;
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 100%, rgba(0, 0, 0, 0.65) 100%, rgba(0, 0, 0, 0.65) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 100%, rgba(0, 0, 0, 0.65) 100%, rgba(0, 0, 0, 0.65) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 100%, rgba(0, 0, 0, 0.65) 100%, rgba(0, 0, 0, 0.65) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#80000000', endColorstr='#80000000', GradientType=0);
+    /* IE6-9 */
+    padding-top: 48px;
+    padding-bottom: 375px;
+    margin: auto;
+    width: 100%;
+}
+
+.slideSection h2,p{
+    padding-top: 2rem;
+    width: 90%;
+    margin: auto;
+    text-align: center ;
+}
+
+.slideSection a,i{
+    padding-right: 20px;
+}
+
+
+.contact {
+    background-image: url(./resources/natural-beauty1.jpg);
+    background-attachment: fixed;
+    margin-top: 2rem;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    
+    
+
+}
+
+.contact h2{
+    font-family: "Roboto", sans-serif;
+    
+}
+.contact p{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3rem;
+    padding-bottom: 2rem;
+    text-align: left;
+    
+}
+
+.contact span a i{
+    color: whitesmoke;
+}
+
+.slideSection span{
+    font-weight: bold;
+}
+
+
+
+.footer{
+    background-color: #a9ebd2;
+    color: black;
+    height: 4rem;
+}
+  
+.footer span{
+    padding-top: 20px;
+}
+  
+@media only screen and (max-width: 576px) {
+    .slideSection{
+        width: 100%;
+        padding-bottom: 150px;
+    }
+
+    .slideSection h2, p{
+        padding-top: 2rem;
+        width: 80%;
+    }
+
+    .contact{
+        background-repeat: repeat;
+    }
+
+    .footer{
+        height: 6rem;
+    }
+}

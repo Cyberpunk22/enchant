@@ -44,7 +44,7 @@ html,body{
 
   .method{
       padding: 2rem;
-      height: 700px;
+      height: 1000px;
       width: 100%;
       
   }
@@ -115,13 +115,15 @@ html,body{
     padding-right: 20px;
 }
 
-  .contact {
-    background-image: url(./resources/banner1.jpg);
+
+
+.contact {
+    background-image: url(./resources/pricelist1.jpg);
     background-attachment: fixed;
     margin-top: 2rem;
-    width: 100%;
-   
-
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position-x: center;
 }
 
 .contact h2{
@@ -171,7 +173,15 @@ html,body{
 
 /* // Small devices (landscape phones, 576px and up) */
 @media only screen and (max-width: 576px) {
-    .method {
+  .method {
+        height: 800px;
+    }
+    .method h1{
+        font-size: 1rem;
+    }
+    .method p{
+        font-size: .7rem;
+        width: 100%;   .method {
         height: 800px;
     }
     .method h1{
