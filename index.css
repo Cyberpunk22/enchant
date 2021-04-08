@@ -94,7 +94,7 @@ html,body{
 }
 
 
-button{
+.pricebutton{
     font-size: 2rem;
     font-family: "Great Vibes", sans-serif;
     letter-spacing: 2px;
@@ -107,7 +107,7 @@ button{
 
 
 
-button:hover{
+.pricebutton:hover{
     background-color: #f89f93;
     transition: background 1.5s;
     padding: 2px 60px 2px 60px;
@@ -117,12 +117,12 @@ button:hover{
 
 }
 
-button a {
+.pricebutton a {
     color: black;
     
 }
 
-button a:hover {
+.pricebutton a:hover {
     color: white;
     text-decoration: none;
 }
