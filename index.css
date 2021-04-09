@@ -333,7 +333,14 @@ i {
 /* // No media query for `xs` since this is the default in Bootstrap */
 
 /* // Small devices (landscape phones, 576px and up) */
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 757px) {
+    #aboutus h1{
+        font-size: 2rem;
+        padding-bottom: 8px;
+    }
+    
+    
+    
     .slideSection{
         width: 100%;
         padding-bottom: 150px;
@@ -349,7 +356,7 @@ i {
     }
 
     .footer{
-        height: 6rem;
+        height: 6.2rem;
     }
 }
 
