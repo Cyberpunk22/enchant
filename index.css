@@ -338,7 +338,7 @@ i {
 @media only screen and (max-width: 757px) {
     #aboutus h1{
         font-size: 2rem;
-        padding-bottom: 8px;
+        padding-bottom: 10px;
     }
     
     
@@ -358,7 +358,11 @@ i {
     }
 
     .footer{
-        height: 6.2rem;
+        height: auto;
+    }
+
+    .footer span{
+        padding: 10px;
     }
 }
 
