@@ -80,6 +80,7 @@ html,body{
   line-height: 1.8;
   width: 100%;
   padding: .8rem;
+  margin-bottom: 20px;
 }
 
 .method span{
@@ -94,6 +95,7 @@ html,body{
     background-color: #a9ebd2;
     color: black;
     height: 4rem;
+    
 
 }
 
@@ -117,6 +119,8 @@ html,body{
     } 
     .footer{
         height: 7rem;
+        /* position: fixed; */
+        
     }
 
 }
