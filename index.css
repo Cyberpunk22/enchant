@@ -314,11 +314,13 @@ i {
 .footer{
     background-color: #a9ebd2;
     color: black;
-    height: 4rem;
+    height: auto;
+    width: 100%;
 }
   
 .footer span{
-    padding-top: 20px;
+    padding: 15px;
+   
 }
   
 
