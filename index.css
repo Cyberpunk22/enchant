@@ -337,11 +337,13 @@ i {
 /* // Small devices (landscape phones, 576px and up) */
 @media only screen and (max-width: 757px) {
     #aboutus h1{
-        font-size: 2rem;
+        font-size: 1.6rem;
         padding-bottom: 10px;
     }
     
-    
+    .pricebutton{
+        font-size: 1.5rem;
+    }
     
     .slideSection{
         width: 100%;
